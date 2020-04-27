@@ -1,0 +1,4 @@
+defineSituation(LP, ST) :-
+    LP =< 7 -> ST = light  ;
+    LP =< 11 -> ST = medium ;
+                 ST = severe.
